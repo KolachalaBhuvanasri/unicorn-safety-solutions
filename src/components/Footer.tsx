@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Phone, Mail, MapPin, Globe, Share2, MessageCircle } from "lucide-react";
 import logo from "@/assets/jm-logo.png.asset.json";
 
 export function Footer() {
@@ -20,7 +20,7 @@ export function Footer() {
             industrial PPE equipment since 2001.
           </p>
           <div className="mt-6 flex gap-2">
-            {[Facebook, Instagram, Linkedin].map((I, i) => (
+            {[Globe, Share2, MessageCircle].map((I, i) => (
               <a key={i} href="#" className="rounded-full border border-white/20 p-2.5 hover:bg-accent hover:text-ink hover:border-accent transition">
                 <I className="h-4 w-4" />
               </a>
