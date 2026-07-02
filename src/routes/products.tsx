@@ -1,15 +1,9 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { FloatingButtons } from "@/components/FloatingButtons";
-import { useState } from "react";
-import { Search } from "lucide-react";
-import speed from "@/assets/speed-humps.png.asset.json";
-import cones from "@/assets/cones-barriers.png.asset.json";
-import tapes from "@/assets/reflective-tapes.png.asset.json";
-import ppe from "@/assets/ppe-gear.png.asset.json";
-import traffic from "@/assets/traffic-safety.png.asset.json";
-import equip from "@/assets/safety-equipment.png.asset.json";
+import { ProductGallery } from "@/components/ProductGallery";
+import { motion } from "framer-motion";
 
 export const Route = createFileRoute("/products")({
   head: () => ({
@@ -21,67 +15,79 @@ export const Route = createFileRoute("/products")({
   component: ProductsPage,
 });
 
-const products = [
-  { cat: "Speed Humps", img: speed.url, items: ["JSB-001", "JSB-002", "JSB-003", "JSB-004", "PVC JSB-005", "ECO JSB-006", "Wheel Chocks", "Corner Guards", "Wall Protectors"] },
-  { cat: "Cones & Barriers", img: cones.url, items: ["Safety Cones", "PVC Spring Poles", "PVC Barriers", "PVC Link Chains", "Water Barriers"] },
-  { cat: "Reflective Tapes & Studs", img: tapes.url, items: ["3M Reflective Tapes", "Raised Pavement Markers", "Solar Studs", "Reflective Studs", "Cable Protectors"] },
-  { cat: "PPE & Reflective Wear", img: ppe.url, items: ["Reflective Jackets", "Gloves", "Reflective Caps", "Safety Helmet", "Safety Goggles", "Protective Shoes"] },
-  { cat: "Traffic & Parking Systems", img: traffic.url, items: ["Median Markers", "LED Batons", "Convex Mirrors", "Queue Controllers", "Wheel Clamp Locks"] },
-  { cat: "Safety Equipment", img: equip.url, items: ["Speed Gun", "Metal Detector", "Tree Guards", "PVC Caps", "Full Body Harness"] },
-];
-
 function ProductsPage() {
-  const [q, setQ] = useState("");
-  const filtered = products
-    .map((p) => ({ ...p, items: p.items.filter((i) => i.toLowerCase().includes(q.toLowerCase())) }))
-    .filter((p) => !q || p.cat.toLowerCase().includes(q.toLowerCase()) || p.items.length);
-
   return (
     <>
       <Navbar />
       <main>
-        <section className="bg-ink text-white py-20">
+        {/* Header Section */}
+        <section className="bg-ink text-white py-16 sm:py-24 relative overflow-hidden">
           <div className="hazard-stripe absolute inset-x-0 top-0 h-2" />
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="text-xs font-bold uppercase tracking-[0.3em] text-accent">Complete Catalog</div>
-            <h1 className="mt-4 font-display text-5xl sm:text-7xl">Every product,<br/>one place.</h1>
-            <div className="mt-8 relative max-w-xl">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-white/50" />
-              <input
-                value={q}
-                onChange={(e) => setQ(e.target.value)}
-                placeholder="Search products, categories, SKUs..."
-                className="w-full rounded-md border border-white/20 bg-white/10 pl-12 pr-4 py-4 text-white placeholder:text-white/50 focus:border-accent focus:outline-none"
-              />
+          <div className="absolute inset-0 opacity-5">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full mix-blend-multiply filter blur-3xl" />
+            <div className="absolute bottom-0 left-0 w-96 h-96 bg-yellow-400 rounded-full mix-blend-multiply filter blur-3xl" />
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10"
+          >
+            <div className="text-xs font-bold uppercase tracking-[0.3em] text-accent mb-4">
+              Complete Catalog
             </div>
+            <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl leading-tight mb-6">
+              Every product,
+              <br />
+              one place.
+            </h1>
+            <p className="text-lg text-white/80 max-w-2xl mb-0">
+              Discover our complete range of road safety, traffic control, industrial PPE, and
+              specialized equipment. Everything you need for workplace and traffic safety.
+            </p>
+          </motion.div>
+        </section>
+
+        {/* Products Gallery */}
+        <section className="py-16 sm:py-24 bg-background">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <ProductGallery showFilters={true} itemsPerPage={12} />
           </div>
         </section>
 
-        <section className="py-16 sm:py-24">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-16">
-            {filtered.map((p) => (
-              <div key={p.cat}>
-                <div className="flex items-end justify-between gap-6 border-b border-border pb-4">
-                  <h2 className="font-display text-3xl sm:text-4xl">{p.cat}</h2>
-                  <div className="text-sm text-muted-foreground">{p.items.length} products</div>
-                </div>
-                <div className="mt-8 grid gap-6 md:grid-cols-3 lg:grid-cols-4">
-                  <div className="rounded-xl bg-secondary aspect-square flex items-center justify-center p-6">
-                    <img src={p.img} alt={p.cat} className="max-h-full max-w-full object-contain" />
-                  </div>
-                  {p.items.map((it) => (
-                    <div key={it} className="group rounded-xl border border-border p-6 hover:border-accent hover:shadow-hard transition">
-                      <div className="font-display text-lg">{it}</div>
-                      <div className="mt-1 text-xs text-muted-foreground">{p.cat}</div>
-                      <div className="mt-6 flex gap-2">
-                        <Link to="/contact" className="text-xs font-bold uppercase tracking-wider text-accent">Request Quote →</Link>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
+        {/* CTA Section */}
+        <section className="py-16 sm:py-24 bg-secondary border-t border-border">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center"
+          >
+            <h2 className="font-display text-4xl sm:text-5xl mb-4">
+              Can't find what you're looking for?
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Our team can help you find the right solution or provide custom options for your
+              specific requirements. Contact us today!
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://wa.me/?text=Hi%2C%20I%20need%20help%20finding%20a%20product"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-green-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-600 transition"
+              >
+                Chat with us on WhatsApp
+              </a>
+              <a
+                href="/contact"
+                className="inline-block bg-accent text-accent-foreground font-bold py-3 px-8 rounded-lg hover:opacity-90 transition"
+              >
+                Send Inquiry
+              </a>
+            </div>
+          </motion.div>
         </section>
       </main>
       <Footer />

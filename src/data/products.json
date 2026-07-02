@@ -1,0 +1,815 @@
+{
+  "categories": [
+    {
+      "id": "speed-humps",
+      "name": "Speed Humps",
+      "slug": "speed-humps",
+      "description": "Quality speed humps and parking control products"
+    },
+    {
+      "id": "pvc-speed-humps",
+      "name": "PVC Speed Humps",
+      "slug": "pvc-speed-humps",
+      "description": "Advanced PVC speed humps and accessories"
+    },
+    {
+      "id": "pvc-category",
+      "name": "PVC Category",
+      "slug": "pvc-category",
+      "description": "Complete PVC safety solutions"
+    },
+    {
+      "id": "reflective-garments",
+      "name": "Reflective Garments & Accessories",
+      "slug": "reflective-garments",
+      "description": "Premium PPE and reflective wear"
+    },
+    {
+      "id": "road-studs",
+      "name": "Raised Pavement Marker / Road Studs",
+      "slug": "road-studs",
+      "description": "Road markings and reflective studs"
+    },
+    {
+      "id": "other",
+      "name": "Other Category",
+      "slug": "other",
+      "description": "Additional safety products"
+    },
+    {
+      "id": "safety-equipment",
+      "name": "Safety Equipment",
+      "slug": "safety-equipment",
+      "description": "Professional safety equipment"
+    }
+  ],
+  "products": [
+    {
+      "id": "jsb-001",
+      "code": "JSB-001",
+      "name": "JSB-001 Speed Hump",
+      "category": "speed-humps",
+      "price": null,
+      "featured": true,
+      "image": "/products/jsb-001.jpg",
+      "description": "Premium rubber speed hump for effective traffic calming",
+      "shortDescription": "Durable rubber speed hump",
+      "specifications": [
+        { "key": "Material", "value": "Recycled Rubber" },
+        { "key": "Height", "value": "50mm" },
+        { "key": "Length", "value": "500mm" },
+        { "key": "Width", "value": "300mm" },
+        { "key": "Weight", "value": "8 kg" }
+      ],
+      "features": [
+        "Weather resistant",
+        "UV stable",
+        "Reflective strips included",
+        "Easy installation",
+        "Long lasting"
+      ],
+      "applications": [
+        "Residential areas",
+        "Parking lots",
+        "School zones",
+        "Hospital grounds",
+        "Industrial facilities"
+      ]
+    },
+    {
+      "id": "jsb-002",
+      "code": "JSB-002",
+      "name": "JSB-002 Speed Hump",
+      "category": "speed-humps",
+      "price": null,
+      "featured": true,
+      "image": "/products/jsb-002.jpg",
+      "description": "Enhanced rubber speed hump with improved grip",
+      "shortDescription": "Enhanced grip speed hump",
+      "specifications": [
+        { "key": "Material", "value": "Premium Rubber" },
+        { "key": "Height", "value": "55mm" },
+        { "key": "Length", "value": "600mm" },
+        { "key": "Width", "value": "300mm" },
+        { "key": "Weight", "value": "10 kg" }
+      ],
+      "features": [
+        "Superior grip",
+        "Weather resistant",
+        "Reflective strips included",
+        "Easy installation",
+        "Extended lifespan"
+      ],
+      "applications": [
+        "Busy parking lots",
+        "Commercial zones",
+        "Hospital grounds"
+      ]
+    },
+    {
+      "id": "jsb-003",
+      "code": "JSB-003",
+      "name": "JSB-003 Speed Hump",
+      "category": "speed-humps",
+      "price": null,
+      "featured": false,
+      "image": "/products/jsb-003.jpg",
+      "description": "Standard speed hump for general use",
+      "shortDescription": "Standard rubber speed hump",
+      "specifications": [
+        { "key": "Material", "value": "Rubber" },
+        { "key": "Height", "value": "50mm" },
+        { "key": "Length", "value": "500mm" },
+        { "key": "Width", "value": "300mm" }
+      ],
+      "features": [
+        "Cost effective",
+        "Easy to install",
+        "Weather resistant"
+      ],
+      "applications": ["Parking lots", "Residential areas"]
+    },
+    {
+      "id": "jsb-004",
+      "code": "JSB-004",
+      "name": "JSB-004 Speed Hump",
+      "category": "speed-humps",
+      "price": null,
+      "featured": false,
+      "image": "/products/jsb-004.jpg",
+      "description": "Heavy-duty speed hump for high-traffic areas",
+      "shortDescription": "Heavy-duty speed hump",
+      "specifications": [
+        { "key": "Material", "value": "Reinforced Rubber" },
+        { "key": "Height", "value": "60mm" },
+        { "key": "Length", "value": "700mm" },
+        { "key": "Width", "value": "300mm" },
+        { "key": "Weight", "value": "15 kg" }
+      ],
+      "features": [
+        "Heavy-duty construction",
+        "Long lasting",
+        "Weather resistant"
+      ],
+      "applications": ["High-traffic areas", "Industrial zones"]
+    },
+    {
+      "id": "pvc-end-caps",
+      "code": "PVC-EC",
+      "name": "PVC & Rubber End Caps",
+      "category": "speed-humps",
+      "price": null,
+      "featured": false,
+      "image": "/products/pvc-end-caps.jpg",
+      "description": "End caps for speed humps for safe termination",
+      "shortDescription": "End caps for speed humps",
+      "specifications": [
+        { "key": "Material", "value": "PVC & Rubber" },
+        { "key": "Compatibility", "value": "Universal" }
+      ],
+      "features": [
+        "Safe termination",
+        "Easy installation",
+        "Reflective strips"
+      ],
+      "applications": ["Speed hump terminals"]
+    },
+    {
+      "id": "eco-jsb-005",
+      "code": "ECO JSB-005",
+      "name": "ECO JSB-005 PVC Speed Hump",
+      "category": "pvc-speed-humps",
+      "price": null,
+      "featured": true,
+      "image": "/products/eco-jsb-005.jpg",
+      "description": "Eco-friendly PVC speed hump with sustainable materials",
+      "shortDescription": "Eco-friendly PVC speed hump",
+      "specifications": [
+        { "key": "Material", "value": "Recycled PVC" },
+        { "key": "Height", "value": "50mm" },
+        { "key": "Length", "value": "500mm" },
+        { "key": "Width", "value": "300mm" }
+      ],
+      "features": [
+        "Eco-friendly",
+        "Sustainable",
+        "Weather resistant",
+        "Reflective strips"
+      ],
+      "applications": ["Green projects", "Parking lots"]
+    },
+    {
+      "id": "pvc-jsb-006",
+      "code": "PVC JSB-006",
+      "name": "PVC JSB-006 Speed Hump",
+      "category": "pvc-speed-humps",
+      "price": null,
+      "featured": true,
+      "image": "/products/pvc-jsb-006.jpg",
+      "description": "Premium PVC speed hump for durability and performance",
+      "shortDescription": "Premium PVC speed hump",
+      "specifications": [
+        { "key": "Material", "value": "Premium PVC" },
+        { "key": "Height", "value": "55mm" },
+        { "key": "Length", "value": "600mm" },
+        { "key": "Width", "value": "300mm" }
+      ],
+      "features": [
+        "Premium quality",
+        "Durable",
+        "Reflective strips",
+        "Weather resistant"
+      ],
+      "applications": ["Commercial areas", "Parking facilities"]
+    },
+    {
+      "id": "wheel-chocks",
+      "code": "WC-001",
+      "name": "Wheel Chocks",
+      "category": "pvc-speed-humps",
+      "price": null,
+      "featured": false,
+      "image": "/products/wheel-chocks.jpg",
+      "description": "Heavy-duty wheel chocks for vehicle safety",
+      "shortDescription": "Wheel chocks for vehicle safety",
+      "specifications": [
+        { "key": "Material", "value": "Rubber & PVC" },
+        { "key": "Capacity", "value": "Up to 10 tons per chock" }
+      ],
+      "features": [
+        "Heavy-duty",
+        "Non-slip surface",
+        "Portable"
+      ],
+      "applications": ["Parking lots", "Industrial areas", "Loading docks"]
+    },
+    {
+      "id": "corner-guards",
+      "code": "CG-001",
+      "name": "Corner Guards",
+      "category": "pvc-speed-humps",
+      "price": null,
+      "featured": false,
+      "image": "/products/corner-guards.jpg",
+      "description": "PVC corner guards for protecting building edges",
+      "shortDescription": "Corner protection guards",
+      "specifications": [
+        { "key": "Material", "value": "PVC" },
+        { "key": "Height", "value": "800mm" }
+      ],
+      "features": [
+        "Impact resistant",
+        "Reflective strips",
+        "Easy installation"
+      ],
+      "applications": ["Building corners", "Warehouse areas", "Parking facilities"]
+    },
+    {
+      "id": "wall-protectors",
+      "code": "WP-001",
+      "name": "Wall Protectors",
+      "category": "pvc-speed-humps",
+      "price": null,
+      "featured": false,
+      "image": "/products/wall-protectors.jpg",
+      "description": "Protective barriers for wall damage prevention",
+      "shortDescription": "Wall protection barriers",
+      "specifications": [
+        { "key": "Material", "value": "PVC" },
+        { "key": "Height", "value": "600mm" }
+      ],
+      "features": [
+        "Durable",
+        "Reflective strips",
+        "Weather resistant"
+      ],
+      "applications": ["Warehouse walls", "Loading areas", "Parking garages"]
+    },
+    {
+      "id": "safety-cones",
+      "code": "SC-001",
+      "name": "Safety Cones",
+      "category": "pvc-category",
+      "price": null,
+      "featured": true,
+      "image": "/products/safety-cones.jpg",
+      "description": "Bright orange safety cones for traffic control",
+      "shortDescription": "High visibility traffic cones",
+      "specifications": [
+        { "key": "Material", "value": "PVC" },
+        { "key": "Height", "value": "750mm" },
+        { "key": "Weight", "value": "1.2 kg" }
+      ],
+      "features": [
+        "High visibility",
+        "Lightweight",
+        "Reflective strips",
+        "Durable"
+      ],
+      "applications": ["Road work", "Traffic control", "Event management"]
+    },
+    {
+      "id": "pvc-spring-poles",
+      "code": "SP-001",
+      "name": "PVC Spring Poles",
+      "category": "pvc-category",
+      "price": null,
+      "featured": false,
+      "image": "/products/pvc-spring-poles.jpg",
+      "description": "Spring-loaded PVC poles for temporary barriers",
+      "shortDescription": "Spring-loaded barrier poles",
+      "specifications": [
+        { "key": "Material", "value": "PVC" },
+        { "key": "Height", "value": "900mm" }
+      ],
+      "features": [
+        "Spring-loaded",
+        "Reflective",
+        "Easy setup"
+      ],
+      "applications": ["Parking lot marking", "Event areas"]
+    },
+    {
+      "id": "pvc-barriers",
+      "code": "PB-001",
+      "name": "PVC Barriers",
+      "category": "pvc-category",
+      "price": null,
+      "featured": true,
+      "image": "/products/pvc-barriers.jpg",
+      "description": "Durable PVC barriers for area control",
+      "shortDescription": "Area control barriers",
+      "specifications": [
+        { "key": "Material", "value": "PVC" },
+        { "key": "Length", "value": "2000mm" },
+        { "key": "Height", "value": "1000mm" }
+      ],
+      "features": [
+        "Modular design",
+        "Easy assembly",
+        "Weather resistant",
+        "Reflective"
+      ],
+      "applications": ["Construction sites", "Parking areas", "Event management"]
+    },
+    {
+      "id": "pvc-link-chains",
+      "code": "LC-001",
+      "name": "PVC Link Chains",
+      "category": "pvc-category",
+      "price": null,
+      "featured": false,
+      "image": "/products/pvc-link-chains.jpg",
+      "description": "High-visibility PVC link chains for barrier systems",
+      "shortDescription": "Decorative barrier chains",
+      "specifications": [
+        { "key": "Material", "value": "PVC" },
+        { "key": "Link Size", "value": "25mm" }
+      ],
+      "features": [
+        "High visibility",
+        "Durable",
+        "Weather resistant"
+      ],
+      "applications": ["Temporary barriers", "Parking lot marking"]
+    },
+    {
+      "id": "reflective-jackets",
+      "code": "RJ-001",
+      "name": "Reflective Jackets",
+      "category": "reflective-garments",
+      "price": null,
+      "featured": true,
+      "image": "/products/reflective-jackets.jpg",
+      "description": "High-visibility reflective safety jackets",
+      "shortDescription": "Safety reflective vests",
+      "specifications": [
+        { "key": "Material", "value": "Polyester with 3M Reflective Tape" },
+        { "key": "Sizes", "value": "S, M, L, XL, XXL" },
+        { "key": "Colors", "value": "Orange, Yellow" }
+      ],
+      "features": [
+        "3M reflective strips",
+        "Breathable material",
+        "Adjustable size",
+        "Durable"
+      ],
+      "applications": ["Road work", "Construction", "Traffic management", "Outdoor work"]
+    },
+    {
+      "id": "gloves",
+      "code": "GL-001",
+      "name": "Gloves",
+      "category": "reflective-garments",
+      "price": null,
+      "featured": false,
+      "image": "/products/gloves.jpg",
+      "description": "Work gloves for safety and protection",
+      "shortDescription": "Protective work gloves",
+      "specifications": [
+        { "key": "Material", "value": "Nitrile & Cotton" },
+        { "key": "Sizes", "value": "S, M, L, XL" }
+      ],
+      "features": [
+        "Nitrile coated",
+        "Non-slip grip",
+        "Comfortable fit",
+        "Durable"
+      ],
+      "applications": ["Construction", "Maintenance", "Industrial work"]
+    },
+    {
+      "id": "reflective-caps",
+      "code": "RC-001",
+      "name": "Reflective Caps",
+      "category": "reflective-garments",
+      "price": null,
+      "featured": false,
+      "image": "/products/reflective-caps.jpg",
+      "description": "Safety caps with reflective bands",
+      "shortDescription": "Reflective safety caps",
+      "specifications": [
+        { "key": "Material", "value": "Cotton with Reflective Tape" },
+        { "key": "Colors", "value": "Yellow, Orange, White" }
+      ],
+      "features": [
+        "Reflective bands",
+        "Comfortable fit",
+        "UV protected",
+        "Adjustable"
+      ],
+      "applications": ["Outdoor work", "Construction sites", "Traffic management"]
+    },
+    {
+      "id": "safety-helmet",
+      "code": "SH-001",
+      "name": "Safety Helmet",
+      "category": "reflective-garments",
+      "price": null,
+      "featured": true,
+      "image": "/products/safety-helmet.jpg",
+      "description": "Impact-resistant safety helmets with reflective strips",
+      "shortDescription": "Industrial safety helmet",
+      "specifications": [
+        { "key": "Material", "value": "ABS Plastic" },
+        { "key": "Weight", "value": "400g" },
+        { "key": "Colors", "value": "White, Yellow, Orange, Blue" }
+      ],
+      "features": [
+        "Impact resistant",
+        "Ventilated",
+        "Reflective strips",
+        "Chin strap included",
+        "Comfortable fit"
+      ],
+      "applications": ["Construction", "Industrial work", "Maintenance", "Warehouses"]
+    },
+    {
+      "id": "goggles",
+      "code": "GG-001",
+      "name": "Goggles",
+      "category": "reflective-garments",
+      "price": null,
+      "featured": false,
+      "image": "/products/goggles.jpg",
+      "description": "Safety goggles for eye protection",
+      "shortDescription": "Protective safety goggles",
+      "specifications": [
+        { "key": "Material", "value": "Polycarbonate Lens" },
+        { "key": "UV Protection", "value": "100% UV" }
+      ],
+      "features": [
+        "Anti-scratch coating",
+        "Comfortable fit",
+        "Anti-fog option",
+        "UV protection"
+      ],
+      "applications": ["Welding", "Construction", "Chemical work", "Industrial use"]
+    },
+    {
+      "id": "protective-shoes",
+      "code": "PS-001",
+      "name": "Protective Shoes",
+      "category": "reflective-garments",
+      "price": null,
+      "featured": false,
+      "image": "/products/protective-shoes.jpg",
+      "description": "Steel-toed protective safety shoes",
+      "shortDescription": "Steel-toed safety shoes",
+      "specifications": [
+        { "key": "Material", "value": "Leather with Steel Toe" },
+        { "key": "Sizes", "value": "6 to 12" },
+        { "key": "Weight", "value": "900g per pair" }
+      ],
+      "features": [
+        "Steel toe cap",
+        "Oil resistant sole",
+        "Anti-slip",
+        "Comfortable for long hours",
+        "Reflective heel"
+      ],
+      "applications": ["Construction", "Industrial work", "Warehouse operations"]
+    },
+    {
+      "id": "road-markings",
+      "code": "RM-001",
+      "name": "Road Markings",
+      "category": "road-studs",
+      "price": null,
+      "featured": false,
+      "image": "/products/road-markings.jpg",
+      "description": "Raised pavement markers for road guidance",
+      "shortDescription": "Raised pavement markers",
+      "specifications": [
+        { "key": "Material", "value": "Plastic with Reflective Tape" },
+        { "key": "Size", "value": "100 x 100mm" }
+      ],
+      "features": [
+        "Weather resistant",
+        "Reflective",
+        "Easy installation",
+        "Long lasting"
+      ],
+      "applications": ["Road markings", "Parking lot lines"]
+    },
+    {
+      "id": "3m-reflective-tapes",
+      "code": "3M-RT",
+      "name": "3M Reflective Tapes",
+      "category": "road-studs",
+      "price": null,
+      "featured": true,
+      "image": "/products/3m-reflective-tapes.jpg",
+      "description": "Premium 3M reflective safety tapes",
+      "shortDescription": "3M reflective safety tape",
+      "specifications": [
+        { "key": "Brand", "value": "3M" },
+        { "key": "Width", "value": "50mm" },
+        { "key": "Length", "value": "45m Roll" },
+        { "key": "Colors", "value": "Red, Yellow, White, Blue" }
+      ],
+      "features": [
+        "Premium 3M brand",
+        "High reflectivity",
+        "Weather resistant",
+        "Long lifespan",
+        "Easy application"
+      ],
+      "applications": ["Vehicle markings", "Safety equipment", "Warning signs", "Personal gear"]
+    },
+    {
+      "id": "reflective-studs",
+      "code": "RS-001",
+      "name": "Reflective Studs",
+      "category": "road-studs",
+      "price": null,
+      "featured": true,
+      "image": "/products/reflective-studs.jpg",
+      "description": "Road studs for lane marking and guidance",
+      "shortDescription": "Reflective road studs",
+      "specifications": [
+        { "key": "Material", "value": "Plastic with Reflector" },
+        { "key": "Reflector Type", "value": "Cat Eye" }
+      ],
+      "features": [
+        "Cat eye reflector",
+        "Weather resistant",
+        "Durable",
+        "Easy installation"
+      ],
+      "applications": ["Road lanes", "Parking lot marking", "Highway marking"]
+    },
+    {
+      "id": "solar-studs",
+      "code": "SS-001",
+      "name": "Solar Studs",
+      "category": "road-studs",
+      "price": null,
+      "featured": true,
+      "image": "/products/solar-studs.jpg",
+      "description": "Solar-powered road studs with LED lighting",
+      "shortDescription": "Solar-powered LED road studs",
+      "specifications": [
+        { "key": "Power Source", "value": "Solar Panel" },
+        { "key": "LED Color", "value": "White, Amber, Red" },
+        { "key": "Brightness", "value": "200+ mcd" }
+      ],
+      "features": [
+        "Solar powered",
+        "LED lighting",
+        "Energy efficient",
+        "Weather resistant",
+        "Long lifespan"
+      ],
+      "applications": ["Highway marking", "Parking lots", "High-traffic areas", "Night visibility"]
+    },
+    {
+      "id": "cable-protectors",
+      "code": "CP-001",
+      "name": "Cable Protectors",
+      "category": "road-studs",
+      "price": null,
+      "featured": false,
+      "image": "/products/cable-protectors.jpg",
+      "description": "Protective covers for cables and hoses",
+      "shortDescription": "Cable and hose protectors",
+      "specifications": [
+        { "key": "Material", "value": "Rubber" },
+        { "key": "Inner Width", "value": "25-50mm" },
+        { "key": "Length", "value": "1000mm" }
+      ],
+      "features": [
+        "Weather resistant",
+        "Slip resistant",
+        "Easy installation",
+        "Durable"
+      ],
+      "applications": ["Cable management", "Workplace safety", "Temporary installation"]
+    },
+    {
+      "id": "median-markers",
+      "code": "MM-001",
+      "name": "Median Markers",
+      "category": "other",
+      "price": null,
+      "featured": false,
+      "image": "/products/median-markers.jpg",
+      "description": "Reflective markers for road medians",
+      "shortDescription": "Median separation markers",
+      "specifications": [
+        { "key": "Material", "value": "Plastic with Reflector" },
+        { "key": "Height", "value": "200mm" }
+      ],
+      "features": [
+        "Reflective",
+        "Durable",
+        "Weather resistant",
+        "Easy installation"
+      ],
+      "applications": ["Median separators", "Parking lot dividers"]
+    },
+    {
+      "id": "led-batons",
+      "code": "LB-001",
+      "name": "LED Batons",
+      "category": "other",
+      "price": null,
+      "featured": true,
+      "image": "/products/led-batons.jpg",
+      "description": "LED batons for traffic control and safety",
+      "shortDescription": "LED traffic control batons",
+      "specifications": [
+        { "key": "LED Colors", "value": "Red, White, Amber" },
+        { "key": "Battery", "value": "AA x 2" },
+        { "key": "Runtime", "value": "8+ hours" }
+      ],
+      "features": [
+        "LED lighting",
+        "Multiple colors",
+        "Durable",
+        "Weather resistant",
+        "Easy to use"
+      ],
+      "applications": ["Traffic control", "Parking management", "Event control", "Night work"]
+    },
+    {
+      "id": "convex-mirrors",
+      "code": "CM-001",
+      "name": "Convex Mirrors",
+      "category": "other",
+      "price": null,
+      "featured": false,
+      "image": "/products/convex-mirrors.jpg",
+      "description": "Wide-angle convex mirrors for safety",
+      "shortDescription": "Safety convex mirrors",
+      "specifications": [
+        { "key": "Material", "value": "Glass with Steel Frame" },
+        { "key": "Diameter", "value": "600mm" }
+      ],
+      "features": [
+        "Wide viewing angle",
+        "Shatterproof option",
+        "Easy installation",
+        "Weather resistant"
+      ],
+      "applications": ["Parking lots", "Warehouse corners", "Intersections"]
+    },
+    {
+      "id": "queue-controllers",
+      "code": "QC-001",
+      "name": "Queue Controllers",
+      "category": "other",
+      "price": null,
+      "featured": false,
+      "image": "/products/queue-controllers.jpg",
+      "description": "Portable queue control barriers",
+      "shortDescription": "Queue management barriers",
+      "specifications": [
+        { "key": "Material", "value": "Metal & Plastic" },
+        { "key": "Belt Length", "value": "2000mm" }
+      ],
+      "features": [
+        "Portable",
+        "Easy setup",
+        "Durable construction",
+        "Retractable belt"
+      ],
+      "applications": ["Crowded areas", "Events", "Retail stores", "Ticket counters"]
+    },
+    {
+      "id": "wheel-clamp-lock",
+      "code": "WCL-001",
+      "name": "Wheel Clamp Lock",
+      "category": "other",
+      "price": null,
+      "featured": false,
+      "image": "/products/wheel-clamp-lock.jpg",
+      "description": "Security wheel clamp for unauthorized vehicle control",
+      "shortDescription": "Vehicle wheel clamp lock",
+      "specifications": [
+        { "key": "Material", "value": "Steel" },
+        { "key": "Compatibility", "value": "Universal (most wheels)" },
+        { "key": "Lock Type", "value": "Key Lock" }
+      ],
+      "features": [
+        "Heavy duty steel",
+        "Secure lock mechanism",
+        "Durable",
+        "Weather resistant"
+      ],
+      "applications": ["Parking enforcement", "Security", "Property protection"]
+    },
+    {
+      "id": "speed-gun",
+      "code": "SG-001",
+      "name": "Speed Gun",
+      "category": "safety-equipment",
+      "price": null,
+      "featured": true,
+      "image": "/products/speed-gun.jpg",
+      "description": "Digital speed measurement device",
+      "shortDescription": "Digital speed measuring gun",
+      "specifications": [
+        { "key": "Range", "value": "0-99 km/h" },
+        { "key": "Accuracy", "value": "±5 km/h" },
+        { "key": "Display", "value": "LCD Digital" }
+      ],
+      "features": [
+        "Digital display",
+        "Easy to use",
+        "Portable",
+        "Long battery life",
+        "Weather resistant"
+      ],
+      "applications": ["Traffic enforcement", "Speed monitoring", "Safety audits"]
+    },
+    {
+      "id": "metal-detector",
+      "code": "MD-001",
+      "name": "Metal Detector",
+      "category": "safety-equipment",
+      "price": null,
+      "featured": false,
+      "image": "/products/metal-detector.jpg",
+      "description": "Professional metal detection equipment",
+      "shortDescription": "Security metal detector",
+      "specifications": [
+        { "key": "Detection Range", "value": "20cm" },
+        { "key": "Sensitivity", "value": "Adjustable" },
+        { "key": "Battery", "value": "9V" }
+      ],
+      "features": [
+        "Adjustable sensitivity",
+        "Audio & Visual alarm",
+        "Lightweight",
+        "Portable",
+        "Easy to use"
+      ],
+      "applications": ["Security screening", "Workplace safety", "Search operations"]
+    },
+    {
+      "id": "tree-guards",
+      "code": "TG-001",
+      "name": "Tree Guards",
+      "category": "safety-equipment",
+      "price": null,
+      "featured": false,
+      "image": "/products/tree-guards.jpg",
+      "description": "Protective guards for tree safety",
+      "shortDescription": "Tree protection guards",
+      "specifications": [
+        { "key": "Material", "value": "Steel with Powder Coat" },
+        { "key": "Diameter Range", "value": "200-600mm" },
+        { "key": "Height", "value": "1200mm" }
+      ],
+      "features": [
+        "Protective barrier",
+        "Durable coating",
+        "Easy installation",
+        "Weather resistant",
+        "Adjustable"
+      ],
+      "applications": ["Tree protection", "Landscape safety", "Public areas", "Parking lots"]
+    }
+  ]
+}
