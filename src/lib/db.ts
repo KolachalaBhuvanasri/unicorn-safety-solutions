@@ -1,4 +1,6 @@
-import { supabase, type Product, type Category, type ProductImage, type ProductFeature, type ProductSpecification } from "./supabase";
+import { supabase as typedClient, type Product, type Category, type ProductImage, type ProductFeature, type ProductSpecification } from "./supabase";
+const supabase = typedClient as any;
+
 
 /**
  * Category Operations
