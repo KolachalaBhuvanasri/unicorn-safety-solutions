@@ -22,25 +22,28 @@ import {
 } from "@/lib/products";
 import { Skeleton } from "@/components/ui/skeleton";
 
+const NotFoundView = () => (
+  <div className="min-h-screen flex items-center justify-center">
+    <div className="text-center">
+      <h1 className="text-4xl font-bold mb-4">Product Not Found</h1>
+      <p className="text-muted-foreground mb-6">
+        The product you're looking for doesn't exist.
+      </p>
+      <Link
+        to="/products"
+        className="inline-block bg-accent text-accent-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90"
+      >
+        Back to Products
+      </Link>
+    </div>
+  </div>
+);
+
 export const Route = createFileRoute("/product/$id")({
   component: ProductDetailPage,
-  notFoundComponent: () => (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Product Not Found</h1>
-        <p className="text-muted-foreground mb-6">
-          The product you're looking for doesn't exist.
-        </p>
-        <Link
-          to="/products"
-          className="inline-block bg-accent text-accent-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90"
-        >
-          Back to Products
-        </Link>
-      </div>
-    </div>
-  ),
+  notFoundComponent: NotFoundView,
 });
+
 
 function ProductDetailPage() {
   const { id } = Route.useParams();
