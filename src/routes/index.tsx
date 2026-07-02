@@ -1,24 +1,46 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { About } from "@/components/About";
+import { Owner } from "@/components/Owner";
+import { WhyUs } from "@/components/WhyUs";
+import { Products } from "@/components/Products";
+import { Industries } from "@/components/Industries";
+import { Certifications } from "@/components/Certifications";
+import { Testimonials } from "@/components/Testimonials";
+import { FAQ } from "@/components/FAQ";
+import { Footer } from "@/components/Footer";
+import { FloatingButtons } from "@/components/FloatingButtons";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
-  component: Index,
+  head: () => ({
+    meta: [
+      { title: "JM Enterprises · UNICORN — Road Safety Starts With Quality" },
+      { name: "description", content: "Manufacturer of speed humps, cones, reflective tapes, PPE and industrial safety equipment. Factory direct pricing. Pan-India delivery. Government approved supplier." },
+      { property: "og:title", content: "JM Enterprises · UNICORN — Road Safety Starts With Quality" },
+      { property: "og:description", content: "Leading manufacturer & supplier of road, traffic, parking and industrial safety products since 2001." },
+    ],
+  }),
+  component: Home,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
-function Index() {
+function Home() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Certifications />
+        <About />
+        <Owner />
+        <WhyUs />
+        <Products />
+        <Industries />
+        <Testimonials />
+        <FAQ />
+      </main>
+      <Footer />
+      <FloatingButtons />
+    </>
   );
 }
