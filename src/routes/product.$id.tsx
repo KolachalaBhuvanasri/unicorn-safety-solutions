@@ -58,8 +58,9 @@ function ProductDetailPage() {
   >("features");
 
   if (!product) {
-    return <Route.notFoundComponent />;
+    return <NotFoundView />;
   }
+
 
   const handleWhatsappClick = () => {
     const message = `Hi, I'm interested in ${product.name} (${product.code || product.id}). Can you provide more details?`;
