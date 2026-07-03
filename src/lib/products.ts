@@ -6,6 +6,17 @@ import ppeGearImg from "@/assets/ppe-gear.png.asset.json";
 import safetyEquipmentImg from "@/assets/safety-equipment.png.asset.json";
 import trafficSafetyImg from "@/assets/traffic-safety.png.asset.json";
 
+// Eagerly import every individual product image pointer
+const productImageModules = import.meta.glob<{ url: string }>(
+  "@/assets/products/*.jpg.asset.json",
+  { eager: true, import: "default" }
+);
+const PRODUCT_IMAGE: Record<string, string> = {};
+for (const [path, mod] of Object.entries(productImageModules)) {
+  const match = path.match(/([^/]+)\.jpg\.asset\.json$/);
+  if (match) PRODUCT_IMAGE[match[1]] = mod.url;
+}
+
 const CATEGORY_IMAGE: Record<string, string> = {
   "speed-humps": speedHumpsImg.url,
   "pvc-speed-humps": speedHumpsImg.url,
@@ -15,6 +26,7 @@ const CATEGORY_IMAGE: Record<string, string> = {
   "safety-equipment": safetyEquipmentImg.url,
   "other": trafficSafetyImg.url,
 };
+
 
 
 export interface Product {
