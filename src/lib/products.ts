@@ -1,4 +1,21 @@
 import productsData from "@/data/products.json";
+import speedHumpsImg from "@/assets/speed-humps.png.asset.json";
+import conesBarriersImg from "@/assets/cones-barriers.png.asset.json";
+import reflectiveTapesImg from "@/assets/reflective-tapes.png.asset.json";
+import ppeGearImg from "@/assets/ppe-gear.png.asset.json";
+import safetyEquipmentImg from "@/assets/safety-equipment.png.asset.json";
+import trafficSafetyImg from "@/assets/traffic-safety.png.asset.json";
+
+const CATEGORY_IMAGE: Record<string, string> = {
+  "speed-humps": speedHumpsImg.url,
+  "pvc-speed-humps": speedHumpsImg.url,
+  "pvc-category": conesBarriersImg.url,
+  "reflective-garments": ppeGearImg.url,
+  "road-studs": reflectiveTapesImg.url,
+  "safety-equipment": safetyEquipmentImg.url,
+  "other": trafficSafetyImg.url,
+};
+
 
 export interface Product {
   id: string;
