@@ -53,8 +53,9 @@ export interface Category {
 
 export const products: Product[] = (productsData.products as Product[]).map((p) => ({
   ...p,
-  image: p.image && !p.image.startsWith("/products/") ? p.image : (CATEGORY_IMAGE[p.category] ?? trafficSafetyImg.url),
+  image: PRODUCT_IMAGE[p.id] ?? (p.image && !p.image.startsWith("/products/") ? p.image : (CATEGORY_IMAGE[p.category] ?? trafficSafetyImg.url)),
 }));
+
 export const categories: Category[] = productsData.categories as Category[];
 
 
