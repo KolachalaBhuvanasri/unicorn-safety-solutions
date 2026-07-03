@@ -39,8 +39,12 @@ export interface Category {
   description: string;
 }
 
-export const products: Product[] = productsData.products as Product[];
+export const products: Product[] = (productsData.products as Product[]).map((p) => ({
+  ...p,
+  image: p.image && !p.image.startsWith("/products/") ? p.image : (CATEGORY_IMAGE[p.category] ?? trafficSafetyImg.url),
+}));
 export const categories: Category[] = productsData.categories as Category[];
+
 
 export function getProductById(id: string): Product | undefined {
   return products.find((p) => p.id === id);
