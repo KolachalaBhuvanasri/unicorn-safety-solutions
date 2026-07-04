@@ -41,15 +41,8 @@ function ContactPage() {
                 <Info icon={Clock} title="Business Hours" lines={["Mon–Sat: 9:30 AM – 7:00 PM", "Sunday: Closed"]} />
               </div>
 
-              <div className="mt-10 aspect-video overflow-hidden rounded-xl border border-border">
-                <iframe
-                  title="JM Enterprises Location"
-                  src="https://www.google.com/maps?q=Bansilalpet,Secunderabad&output=embed"
-                  className="h-full w-full"
-                  loading="lazy"
-                />
-              </div>
             </div>
+
 
             <form
               onSubmit={(e) => { e.preventDefault(); setSent(true); }}

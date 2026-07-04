@@ -7,7 +7,7 @@ const faqs = [
   { q: "What is the warranty on your products?", a: "Warranty varies by product — reflective tapes typically 3–7 years outdoor, PPE 1 year, speed humps 5 years. Details on each product page." },
   { q: "How fast is delivery?", a: "In-stock items dispatch within 24–48 hours. Custom manufacturing takes 7–14 days depending on volume." },
   { q: "Can I customise products with my logo or colours?", a: "Yes. We offer custom manufacturing for bulk orders including printing, colours, dimensions and packaging." },
-  { q: "What's the minimum order quantity?", a: "MOQs vary. Many stocked products have no MOQ; custom manufacturing typically starts at 100 units." },
+  { q: "What's the minimum order quantity?", a: "Minimum Order Quantity (MOQ): 10,000 Units." },
   { q: "Do you provide GST invoices?", a: "Yes, all orders come with proper GST billing. GSTIN provided on request." },
   { q: "Do you support government and PSU tenders?", a: "Absolutely — we're an approved supplier for multiple government projects and can provide all tender documentation." },
 ];

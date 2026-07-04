@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Tag, ShieldCheck, FileText, Boxes, Wrench, Truck, Users, Headphones, Star, IndianRupee } from "lucide-react";
+import { Tag, ShieldCheck, FileText, Boxes, Wrench, Truck, Users, IndianRupee } from "lucide-react";
 
 const items = [
   { icon: Tag, title: "Factory Direct Pricing" },
@@ -9,10 +9,9 @@ const items = [
   { icon: Wrench, title: "Custom Manufacturing" },
   { icon: Truck, title: "Fast Delivery" },
   { icon: Users, title: "Trusted Supplier" },
-  { icon: Headphones, title: "Customer Support" },
-  { icon: Star, title: "After Sales Service" },
   { icon: IndianRupee, title: "Competitive Pricing" },
 ];
+
 
 export function WhyUs() {
   return (
@@ -21,9 +20,10 @@ export function WhyUs() {
         <div className="max-w-3xl">
           <div className="text-xs font-bold uppercase tracking-[0.3em] text-accent">Why choose us</div>
           <h2 className="mt-4 font-display text-4xl sm:text-6xl leading-none">
-            Ten reasons India's builders<br/>call us first.
+            Eight reasons India's builders<br/>call us first.
           </h2>
         </div>
+
 
         <div className="mt-16 grid grid-cols-2 gap-px bg-border sm:grid-cols-3 lg:grid-cols-5">
           {items.map((it, i) => (
