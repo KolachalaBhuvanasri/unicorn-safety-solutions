@@ -20,9 +20,10 @@ export function WhyUs() {
         <div className="max-w-3xl">
           <div className="text-xs font-bold uppercase tracking-[0.3em] text-accent">Why choose us</div>
           <h2 className="mt-4 font-display text-4xl sm:text-6xl leading-none">
-            Ten reasons India's builders<br/>call us first.
+            Eight reasons India's builders<br/>call us first.
           </h2>
         </div>
+
 
         <div className="mt-16 grid grid-cols-2 gap-px bg-border sm:grid-cols-3 lg:grid-cols-5">
           {items.map((it, i) => (
