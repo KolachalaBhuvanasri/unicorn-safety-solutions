@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Tag, ShieldCheck, FileText, Boxes, Wrench, Truck, Users, Headphones, Star, IndianRupee } from "lucide-react";
+import { Tag, ShieldCheck, FileText, Boxes, Wrench, Truck, Users, IndianRupee } from "lucide-react";
 
 const items = [
   { icon: Tag, title: "Factory Direct Pricing" },
@@ -9,10 +9,9 @@ const items = [
   { icon: Wrench, title: "Custom Manufacturing" },
   { icon: Truck, title: "Fast Delivery" },
   { icon: Users, title: "Trusted Supplier" },
-  { icon: Headphones, title: "Customer Support" },
-  { icon: Star, title: "After Sales Service" },
   { icon: IndianRupee, title: "Competitive Pricing" },
 ];
+
 
 export function WhyUs() {
   return (
