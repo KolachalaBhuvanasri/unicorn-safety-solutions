@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
       { title: "JM Enterprises · UNICORN — Your Safety, Our Commitment" },
       { name: "description", content: "Manufacturer of speed humps, cones, reflective tapes, PPE and industrial safety equipment. Factory direct pricing. Pan-India delivery. Government approved supplier." },
       { property: "og:title", content: "JM Enterprises · UNICORN — Your Safety, Our Commitment" },
-      { property: "og:description", content: "Leading manufacturer & supplier of road, traffic, parking and industrial safety products since 2001." },
+      { property: "og:description", content: "Leading manufacturer & supplier of road, traffic, parking and industrial safety products since 2012." },
     ],
   }),
   component: Home,

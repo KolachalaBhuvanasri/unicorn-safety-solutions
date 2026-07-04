@@ -29,7 +29,7 @@ export function Hero() {
           className="max-w-4xl"
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-accent">
-            <Zap className="h-3.5 w-3.5" /> Trusted since 2001 · Brand UNICORN
+            <Zap className="h-3.5 w-3.5" /> Trusted since 2012 · Brand UNICORN
           </div>
 
           <h1 className="mt-6 font-display text-5xl leading-[0.95] sm:text-7xl lg:text-[7.5rem]">
