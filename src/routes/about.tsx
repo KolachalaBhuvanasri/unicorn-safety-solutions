@@ -10,7 +10,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About JM Enterprises — 23 Years of Safety Manufacturing" },
-      { name: "description", content: "Founded in 2001, JM Enterprises manufactures road safety, traffic safety, PPE and industrial safety products under the UNICORN brand." },
+      { name: "description", content: "Founded in 2012, JM Enterprises manufactures road safety, traffic safety, PPE and industrial safety products under the UNICORN brand." },
     ],
   }),
   component: () => (

@@ -22,7 +22,7 @@ export function Owner() {
                 className="relative w-full max-w-md mx-auto rounded-lg border-4 border-accent shadow-hard grayscale-[10%]"
               />
               <div className="absolute -bottom-4 -right-4 bg-accent px-4 py-2 font-display text-ink text-lg shadow-hard">
-                Est. 2001
+                Est. 2012
               </div>
             </div>
           </motion.div>

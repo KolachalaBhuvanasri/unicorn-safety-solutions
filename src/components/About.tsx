@@ -26,7 +26,7 @@ export function About() {
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-4">
-              <Stat label="Founded" value="2001" />
+              <Stat label="Founded" value="2012" />
               <Stat label="Factory" value="Jeedimetla" />
               <Stat label="Categories" value="50+" />
               <Stat label="SKUs" value="500+" />
