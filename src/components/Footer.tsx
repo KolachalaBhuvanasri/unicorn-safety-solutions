@@ -17,7 +17,7 @@ export function Footer() {
           </div>
           <p className="mt-6 text-white/70 max-w-sm">
             Manufacturer & supplier of road safety, traffic safety, parking safety and
-            industrial PPE equipment since 2001.
+            industrial PPE equipment since 2012.
           </p>
           <div className="mt-6 flex gap-2">
             {[Globe, Share2, MessageCircle].map((I, i) => (
