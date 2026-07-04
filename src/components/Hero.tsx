@@ -6,28 +6,22 @@ import hero from "@/assets/hero-safety.jpg.asset.json";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-ink text-white">
+    <section className="relative overflow-hidden text-white">
       {/* hazard stripe top */}
-      <div className="hazard-stripe absolute inset-x-0 top-0 h-2" />
+      <div className="hazard-stripe absolute inset-x-0 top-0 z-20 h-2" />
 
-      {/* grid backdrop */}
-      <div className="grid-noise absolute inset-0 opacity-[0.08]" />
+      {/* hero background image */}
+      <img
+        src={hero.url}
+        alt="Road safety construction site at sunset"
+        className="absolute inset-0 h-full w-full object-cover"
+        fetchPriority="high"
+      />
+      {/* dark overlay for legibility */}
+      <div className="absolute inset-0 bg-gradient-to-br from-ink/90 via-ink/70 to-ink/60" />
+      <div className="absolute inset-0 bg-ink/40" />
 
-      {/* floating product images */}
-      {floatingItems.map((it, i) => (
-        <motion.img
-          key={i}
-          src={it.src}
-          alt=""
-          aria-hidden
-          className={`pointer-events-none absolute opacity-15 md:opacity-25 mix-blend-screen ${it.className}`}
-          initial={{ y: 0 }}
-          animate={{ y: [0, -18, 0] }}
-          transition={{ duration: 6 + i, delay: it.delay, repeat: Infinity, ease: "easeInOut" }}
-        />
-      ))}
-
-      <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -38,13 +32,14 @@ export function Hero() {
             <Zap className="h-3.5 w-3.5" /> Trusted since 2001 · Brand UNICORN
           </div>
 
-          <h1 className="mt-6 font-display text-5xl leading-[0.95] sm:text-7xl lg:text-[8rem]">
-            ROAD SAFETY
+          <h1 className="mt-6 font-display text-5xl leading-[0.95] sm:text-7xl lg:text-[7.5rem]">
+            YOUR SAFETY,
             <br />
-            <span className="text-accent">STARTS WITH</span>
+            <span className="text-accent">OUR</span>
             <br />
-            <span className="text-stroke">QUALITY.</span>
+            <span className="text-stroke">COMMITMENT.</span>
           </h1>
+
 
           <p className="mt-8 max-w-2xl text-lg text-white/70 sm:text-xl">
             Leading manufacturer & supplier of Road Safety, Traffic Safety, Parking Safety
