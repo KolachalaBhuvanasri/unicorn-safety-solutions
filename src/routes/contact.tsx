@@ -9,7 +9,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact JM Enterprises — Get a Quote Today" },
-      { name: "description", content: "Get in touch for road safety and industrial safety product quotes. Factory in Jeedimetla, office in Secunderabad. Call +91 96404 96150." },
+      { name: "description", content: "Get in touch for road safety and industrial safety product quotes. Factory in IDA Jeedimetla, Quthbullapur, Medchal. Call +91 96404 96150." },
     ],
   }),
   component: ContactPage,
@@ -36,7 +36,7 @@ function ContactPage() {
               <div className="mt-8 space-y-6">
                 <Info icon={Phone} title="Phone" lines={["+91 96404 96150"]} href="tel:9640496150" />
                 <Info icon={Mail} title="Email" lines={["enterprisesjm2001@gmail.com"]} href="mailto:enterprisesjm2001@gmail.com" />
-                <Info icon={MapPin} title="Factory" lines={["Phase III, Plot No. 30/A, IDA Jeedimetla,", "Quthbullapur, Medchal"]} />
+                <Info icon={MapPin} title="Factory" lines={["Phase III, Plot No. 30/A", "IDA, Jeedimetla", "Quthbullapur", "Medchal, Telangana"]} />
                 <Info icon={MapPin} title="Office" lines={["H.No.6-7-49/2, Bansilalpet,", "Secunderabad – 500003"]} />
                 <Info icon={Clock} title="Business Hours" lines={["Mon–Sat: 9:30 AM – 7:00 PM", "Sunday: Closed"]} />
               </div>
