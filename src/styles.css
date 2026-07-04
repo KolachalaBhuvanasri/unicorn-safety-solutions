@@ -108,6 +108,11 @@
   color: transparent;
 }
 
+@utility text-glow {
+  color: var(--accent);
+  text-shadow: 0 0 30px oklch(0.75 0.19 65 / 0.55), 0 0 60px oklch(0.75 0.19 65 / 0.3);
+}
+
 @utility grid-noise {
   background-image:
     linear-gradient(var(--border) 1px, transparent 1px),

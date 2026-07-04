@@ -54,7 +54,13 @@ export function Footer() {
           <ul className="mt-4 space-y-3 text-sm text-white/80">
             <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 text-accent mt-0.5" /> +91 96404 96150</li>
             <li className="flex gap-2"><Mail className="h-4 w-4 shrink-0 text-accent mt-0.5" /> enterprisesjm2001@gmail.com</li>
-            <li className="flex gap-2"><MapPin className="h-4 w-4 shrink-0 text-accent mt-0.5" /> H.No.6-7-49/2, Bansilalpet, Secunderabad – 500003</li>
+            <li className="flex gap-2">
+              <MapPin className="h-4 w-4 shrink-0 text-accent mt-0.5" />
+              <div>
+                <div className="font-display text-xs uppercase tracking-widest text-accent">🏭 Factory Address</div>
+                Phase III, Plot No. 30/A, IDA, Jeedimetla, Quthbullapur, Medchal, Telangana
+              </div>
+            </li>
           </ul>
         </div>
       </div>

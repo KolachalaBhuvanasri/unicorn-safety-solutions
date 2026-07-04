@@ -37,7 +37,7 @@ export function Hero() {
             <br />
             <span className="text-accent">OUR</span>
             <br />
-            <span className="text-stroke">COMMITMENT.</span>
+            <span className="text-glow">COMMITMENT.</span>
           </h1>
 
 
