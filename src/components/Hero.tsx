@@ -1,17 +1,8 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download, MessageCircle, Zap } from "lucide-react";
 import { Link } from "@tanstack/react-router";
-import cones from "@/assets/cones-barriers.png.asset.json";
-import speed from "@/assets/speed-humps.png.asset.json";
-import tapes from "@/assets/reflective-tapes.png.asset.json";
-import ppe from "@/assets/ppe-gear.png.asset.json";
+import hero from "@/assets/hero-safety.jpg.asset.json";
 
-const floatingItems = [
-  { src: cones.url, className: "top-10 left-[6%] w-40 md:w-56", delay: 0 },
-  { src: speed.url, className: "top-20 right-[8%] w-44 md:w-64", delay: 0.4 },
-  { src: tapes.url, className: "bottom-16 left-[10%] w-36 md:w-52", delay: 0.8 },
-  { src: ppe.url, className: "bottom-8 right-[6%] w-32 md:w-48", delay: 1.2 },
-];
 
 export function Hero() {
   return (
